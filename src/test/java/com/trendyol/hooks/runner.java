@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = {"src/test/resources/features"},
         glue = {"com.trendyol"},
-        tags = "@BrowserStack",
+        //tags = "@Android",
         monochrome = true,
         plugin = {"pretty","html:target/cucumber"}
 )

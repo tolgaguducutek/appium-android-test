@@ -14,7 +14,7 @@ public class TestBase {
 
     public static void androidSetup() throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("platformVersion", "11");
+        caps.setCapability("platformVersion", "11.0");
         caps.setCapability("deviceName", "sdk_gphone_x86");
         caps.setCapability("platfromName", "Android");
         caps.setCapability("automationName", "UiAutomator2");
