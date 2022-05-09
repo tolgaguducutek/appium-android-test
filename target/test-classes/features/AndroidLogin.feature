@@ -1,4 +1,4 @@
-@BrowserStack
+@Android
 Feature: Android Login
 
   Scenario: Cinsiyet secimi yapilmadan basarili login
@@ -31,3 +31,4 @@ Feature: Android Login
     Then Submit butonuna basilir
     Then Rootbarda tiklama islemi yapilir
     Then "tolga.test@yandex.com" Email bilgisi kontrol edilir
+

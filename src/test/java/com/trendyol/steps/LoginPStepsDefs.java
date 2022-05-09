@@ -22,4 +22,9 @@ public class LoginPStepsDefs extends TestBase {
     public void submitButonunaBasilir() {
         loginPage.setSubmitButton();
     }
+
+    @Then("{string} Hata mesaji kontrol edilir")
+    public void hataMesajiKontrolEdilir(String text) {
+        loginPage.setErrorText(text);
+    }
 }
