@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="50890" started-at="2022-05-06T10:21:24 EET" finished-at="2022-05-06T10:22:15 EET">
+  <suite name="Surefire suite" duration-ms="45273" started-at="2022-05-08T20:49:46 EET" finished-at="2022-05-08T20:50:32 EET">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.trendyol.hooks.runner@fad74ee]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="50890" started-at="2022-05-06T10:21:24 EET" finished-at="2022-05-06T10:22:15 EET">
+    <test name="Surefire test" duration-ms="45273" started-at="2022-05-08T20:49:46 EET" finished-at="2022-05-08T20:50:32 EET">
       <class name="com.trendyol.hooks.runner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.trendyol.hooks.runner@fad74ee]" name="setUpClass" is-config="true" duration-ms="562" started-at="2022-05-06T10:21:24 EET" finished-at="2022-05-06T10:21:25 EET">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.trendyol.hooks.runner@fad74ee]" name="setUpClass" is-config="true" duration-ms="523" started-at="2022-05-08T20:49:46 EET" finished-at="2022-05-08T20:49:47 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@53093491]]>
+                <![CDATA[org.testng.TestRunner@102d92c4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.trendyol.hooks.runner@fad74ee]" name="runScenario" duration-ms="49110" started-at="2022-05-06T10:21:25 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-06T10:22:14 EET">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.trendyol.hooks.runner@fad74ee]" name="runScenario" duration-ms="43578" started-at="2022-05-08T20:49:47 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-08T20:50:31 EET">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.trendyol.hooks.runner@fad74ee]" name="tearDownClass" is-config="true" duration-ms="1202" started-at="2022-05-06T10:22:14 EET" finished-at="2022-05-06T10:22:15 EET">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.trendyol.hooks.runner@fad74ee]" name="tearDownClass" is-config="true" duration-ms="1136" started-at="2022-05-08T20:50:31 EET" finished-at="2022-05-08T20:50:32 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
